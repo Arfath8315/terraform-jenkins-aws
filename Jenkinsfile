@@ -1,4 +1,3 @@
-# jenkinsfile including terraform commands to to create a ec2 instance on aws. with aws credentials stored in jenkins credentials manager.
 pipeline {
     agent any
 
