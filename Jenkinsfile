@@ -9,11 +9,7 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/Arfath8315/terraform-jenkins-aws.git' // Replace with your repository
-            } 
-        }
+        
         stage('Terraform Init') {
             steps {
                 sh 'terraform init'
