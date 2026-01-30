@@ -3,5 +3,5 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  description = "terraformjenkins.pem"
+  description = "terraform-aws.pub"
 }
